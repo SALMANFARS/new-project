@@ -1,0 +1,492 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+ 
+}
+.navlist{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #1b1a1a;
+    color: #fff;
+}
+
+.navleft{
+    display: flex;
+    text-decoration: none;
+    margin-left: 470px;
+    text-decoration: none;
+   
+
+}
+.logoright{
+    text-align: center;
+    padding-left: 110px;
+    padding-top: 15px;
+}
+
+.link{
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    padding-top: 20px;
+   
+
+}
+.lastlink{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background: white;
+    color: black;
+   
+}
+/*fon*/
+.fon{
+    background-image: url(imagefon.jpg);
+    height: 100vh;
+    width: 100%;
+    flex: wrap;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.texts{
+    padding-top: 470px;
+}
+.text1{
+    /* Photographer & Filmmaker */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #C0C0C0;
+
+
+}
+.text2{
+    /* Aperture Studios */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 54px;
+line-height: 59px;
+/* identical to box height, or 110% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+.text3{
+    /* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere. */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #C0C0C0;
+    text-align: center;
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    margin: 1px 443px;
+    padding-top: 15px;
+
+
+
+}
+.icon-text{
+    color: #ffffff;
+    padding-left: 10px;
+    
+}
+.icon-bot{
+    display: flex;
+    padding-right: 20px;
+    color: #ffffff; 
+}
+.texts2{
+    display: flex;
+    margin-left: 1100px;
+}
+/*container*/
+.container{
+    text-align: center;
+    flex: wrap;
+    color: #fff;
+    margin-bottom: 36px
+}
+.txt{
+    /* What we do. */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 42px;
+/* identical to box height, or 105% */
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+.txt2{
+    /* The areas that we're specialized in. */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 30px;
+/* identical to box height, or 130% */
+text-align: center;
+
+color: #C0C0C0;
+
+
+}
+.img_text{
+    max-width: 1200px;
+    /* border: 1px solid #ccc; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 17px; 
+     padding: 8px 0px; 
+}
+
+.foto-1{
+    background-image: url("image1.jpg");
+}
+.foto-2{
+    background-image: url("image2.jpg");
+}
+.foto-3{
+    background-image: url("image3.jpg");
+}
+.foto-4{
+    background-image: url("image4.jpg");
+ }
+ .photo{
+    position: relative;
+    width: 49%;
+    width: 590px;
+    color: #fff;
+    height: 400px;
+    background-repeat: no-repeat;
+ }
+.porag{
+    position: absolute;
+    bottom: 5%;
+    text-align: start;
+    padding: 0px 24px;
+}
+.p1{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.p2{
+/* Cras commodo consequat orci, in convallis risus egestas non. Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam. */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 20px;
+/* or 143% */
+
+color: #C0C0C0;
+
+
+}
+.btm{
+    padding: 8px 29px;
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+}
+/**/
+.im{
+    background-image: url("image5.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.nadpis{
+    position: relative;
+    top: 368px;
+    left: 1120px;
+}
+/**/
+.con2{
+    display: flex;
+
+}
+.tex{
+    position: relative;
+    width: 49%;
+    top: 155px;
+    left: 100px;
+}
+.ph{
+    width: 49%;
+}
+.sm-text{
+/* The Gear cage */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #C0C0C0;
+
+
+}
+.big-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+/* identical to box height, or 114% */
+
+color: #FFFFFF;
+
+
+}
+.midle-text{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+color: #FFFFFF;
+
+
+}
+/**/
+.im2{
+    background-image: url("image7.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+/**/
+.ics{
+    display: flex;
+    padding: 100px 0px;
+}
+
+.svg{
+
+    margin-left: 130px;
+}
+.con3{
+    padding-top: 50px;
+}
+/**/
+.im3{
+    background-image: url("image8.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.con3{
+    text-align: center;
+    color: #fff;
+}
+.txtt{
+    
+    padding-bottom: 20px;
+}
+
+.btm2{
+    margin-bottom: 100px;
+}
+/*foot*/
+.foottxt{
+    /* Photographers & videographers capturing the world around us. */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+color: #C0C0C0;
+}
+
+.foot{
+    display: flex;
+    color: #fff;
+}
+.footblock1{
+    padding-left:150px;
+    width: 49.99%;
+}
+.footblock2{
+    width: 20.99%;
+}
+
+.footblock3{
+    width: 24.99%;
+}
+.firstli{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #C0C0C0;
+
+
+}
+li{
+    list-style: none;
+    /* Product Photography */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+color: #FFFFFF;
+
+
+}
+hr{
+    width: 1020px;
+    text-align: center;
+    position: absolute;
+    left: 170px;
+}
+/*foot2*/
+.foot2{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+p{
+    color: #fff;
+}
+.footleft{
+    width: 49.99%;
+    padding-left: 150px;
+    
+
+}
+.footright{
+    width: 49.99%;
+    
+    
+}
+.porag-foot{
+    /* Subscribe to our newsletter */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+.porag-foot2{
+    /* Read about all the things we do. */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 20px;
+/* identical to box height, or 154% */
+
+color: #C0C0C0;
+
+
+}
+input{
+    height: 30px;
+    width: 275px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+
+button{
+    position: relative;
+    padding: 15px;
+    margin-left: -5px;
+    border: none;
+    background: #fff;
+    /* width: 0px; */
+    bottom: 4.5px;
+    border-radius: 0px 5px 5px 0px;
+
+}
+footer{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.left{
+
+    padding-left: 150px;
+}
+.right{
+    /* padding-left: 132px; */
+    margin-left: auto;
+    /* float: left; */
+    padding-right: 435px;
+}
+svg{
+    padding-right: 20px;
+}
+
+
+
+
